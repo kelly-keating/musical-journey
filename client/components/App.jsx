@@ -1,11 +1,16 @@
-import React from 'react'
+import React, {Component, Fragment} from 'react'
+
+import Sine from './Sine'
 
 
-class App extends React.Component {
+class App extends Component {
 
   render() {
     return (
-      <h1>React development has begun!</h1>
+      <Fragment>
+        <h1>React development has begun!</h1>
+        <Sine />
+      </Fragment>
     )
   }
 }
