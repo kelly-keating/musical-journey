@@ -2,14 +2,14 @@ body{
     background: palevioletred;
 }
 
-.display{
+/* .display{
     background:black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1500px;
     height: 500px;
-}
+} */
 
 .pixel {
     width: 0.5vw;
